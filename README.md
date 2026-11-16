@@ -1,4 +1,4 @@
-# eez-rigol-dho924s
+# eez-scope-dho924s
 
 EEZ Studio extension for the **Rigol DHO924S** — 4-channel, 250 MHz, 12-bit
 oscilloscope, 1.25 GSa/s sample rate, up to 50 Mpts memory depth, with a
@@ -11,9 +11,9 @@ Note: this extension does not yet expose the AWG or logic analyzer — see
 [ksstech/eez: docs/rigol-scope-support-plan.md](https://github.com/ksstech/eez/blob/master/docs/rigol-scope-support-plan.md)
 for the plan that adds both.
 
-Like its siblings [eez-keysight-34465a](https://github.com/ksstech/eez-keysight-34465a)
-and [eez-rigol-mho98](https://github.com/ksstech/eez-rigol-mho98), and unlike
-[eez-ea-ps2k](https://github.com/ksstech/eez-ea-ps2k), this instrument speaks
+Like its siblings [eez-dmm-34465a](https://github.com/ksstech/eez-dmm-34465a)
+and [eez-scope-mho98](https://github.com/ksstech/eez-scope-mho98), and unlike
+[eez-psu-ps2k](https://github.com/ksstech/eez-psu-ps2k), this instrument speaks
 **native SCPI** directly — no custom bridge process.
 
 This is the simplest of the four extensions in this family — 7 shortcuts,
@@ -42,7 +42,7 @@ this family) — worth adding one for a consistent icon in EEZ Studio's
 instrument list.
 
 Built as a zip (`python3 build-extension-zip.py` — cross-platform, stdlib
-only) and published via [GitHub Releases](https://github.com/ksstech/eez-rigol-dho924s/releases)
+only) and published via [GitHub Releases](https://github.com/ksstech/eez-scope-dho924s/releases)
 — not committed to the repo. New here and just want the extension
 installed? See
 [ksstech/eez: docs/installing-extensions.md](https://github.com/ksstech/eez/blob/main/docs/installing-extensions.md)
