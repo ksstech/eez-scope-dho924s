@@ -17,7 +17,7 @@ from pathlib import Path
 
 # The only thing that differs between repos in this instrument family --
 # copy this script verbatim into a sibling repo and edit only this line.
-ZIP_NAME_PREFIX = "rigol_dho924s"
+ZIP_NAME_PREFIX = "eez-scope-dho924s"
 
 REPO_ROOT = Path(__file__).resolve().parent
 

@@ -34,8 +34,8 @@ match if auto-detection fails.
 | Path | Purpose |
 |---|---|
 | `package.json` | Extension metadata + 7 shortcuts |
-| `rigol_dho924s.idf` | EEZ Studio instrument definition |
-| `rigol_dho924s.sdl` | SCPI command/response definitions |
+| `scope_dho924s.idf` | EEZ Studio instrument definition |
+| `scope_dho924s.sdl` | SCPI command/response definitions |
 
 No `image.png` currently included (unlike the other three extensions in
 this family) — worth adding one for a consistent icon in EEZ Studio's
